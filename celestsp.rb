@@ -3,8 +3,8 @@ class Celestsp < Formula
 
   desc "Celestial TSP calculates optimal observation order for celestial bodies"
   homepage "https://github.com/rioriost/homebrew-celestsp/"
-  url "https://files.pythonhosted.org/packages/f2/cd/ed5e786e7ea4df846c29683bc83bed4631e6329a9568bcb257698da0bc85/celestsp-0.2.41.tar.gz"
-  sha256 "baed89f266a380395a53e7ddd453674b91bec9d989936cda3bcdb399a450ce5c"
+  url "https://files.pythonhosted.org/packages/6a/4c/d766c2c2b2c482d4a17960d3ce24388078ab6275085f3aee56c80af7bf53/celestsp-0.2.42.tar.gz"
+  sha256 "63ede23b3052e9c76325b4a50d186c78e3cf0241c5520562aee4f604d95b69f3"
   license "MIT"
 
   depends_on "python@3.13"
@@ -15,8 +15,8 @@ class Celestsp < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
-    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
+    url "https://files.pythonhosted.org/packages/1d/35/02daf95b9cd686320bb622eb148792655c9412dbb9b67abb5694e5910a24/charset_normalizer-3.4.5.tar.gz"
+    sha256 "95adae7b6c42a6c5b5b559b1a99149f090a57128155daeea91732c8d970d8644"
   end
 
   resource "cycler" do
