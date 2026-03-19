@@ -21,7 +21,7 @@ The script uses the Traveling Salesman Problem (TSP) algorithm to find the short
 ## Installation
 
 ```bash
-brew tap rioriost/celestsp
+brew tap rioriost/tap
 brew install celestsp
 ```
 
@@ -141,29 +141,27 @@ Name: M34,     RA: 40.53,  Dec:42.72, Altitude:43.19,  Azimuth:298.84, Times to 
 Plot saved as results_20250216_223009.png
 ```
 
-![results_20250216_223009.png](https://raw.githubusercontent.com/rioriost/homebrew-celestsp/main/images/results_20250216_223009.png)
+![results_20250216_223009.png](https://raw.githubusercontent.com/rioriost/celestsp/main/images/results_20250216_223009.png)
 
 ## Release Notes
+
+### 0.2.45 Release
+- Move formula to rioriost/tap
 
 ### 0.2.44 Release
 - Dependency update
 
-
 ### 0.2.43 Release
 - Dependency update
-
 
 ### 0.2.42 Release
 - Dependency update
 
-
 ### 0.2.41 Release
 - Dependency update
 
-
 ### 0.2.40 Release
 - Dependency update
-
 
 ### 0.2.39 Release
 - Dependency update
