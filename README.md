@@ -21,8 +21,7 @@ The script uses the Traveling Salesman Problem (TSP) algorithm to find the short
 ## Installation
 
 ```bash
-brew tap rioriost/tap
-brew install celestsp
+brew install rioriost/tap/celestsp
 ```
 
 ## Usage
