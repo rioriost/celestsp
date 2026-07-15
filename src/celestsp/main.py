@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.projections.polar import PolarAxes
 import networkx as nx
-from scipy.spatial import distance_matrix
+from scipy.spatial.distance import cdist
 from astropy.coordinates import SkyCoord, EarthLocation, AltAz  # type: ignore
 from astropy.time import Time  # type: ignore
 from astropy import units as u  # type: ignore
@@ -55,7 +55,7 @@ class CelestialTSP:
         # 3. Build a graph for all celestial bodies:
         # We use their (Altitude, Azimuth) values.
         coordinates = self.df[["Altitude", "Azimuth"]].to_numpy()
-        dmatrix = distance_matrix(coordinates, coordinates)
+        dmatrix = cdist(coordinates, coordinates)
         if first_index != -1:
             graph = self.make_graph(coordinates, dmatrix)
             tsp_path = nx.approximation.greedy_tsp(graph, source=first_index)

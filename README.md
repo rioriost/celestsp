@@ -1,7 +1,7 @@
 # Celestial TSP
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.13%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.14%2B-blue)
 
 ## Overview
 
